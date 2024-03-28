@@ -1,0 +1,53 @@
+
+what is GIT?
+
+Git is (distributed version control system).
+open-source version control software, used for managing and tracking file revisions. 
+You can use Git with any file type, 
+but it’s most often used for tracking code files.
+Example: I have create html file later on changes as made same file so that i can track file and update.
+
+What is GitHub?
+GitHub is a website which is used to store, host, share your code
+and can clone the project.
+GitHub can save your code online.
+GitHub will allow all the developers of a project to see what changes the other one has made.
+It allows you to discuss issues in your code with other developers.
+
+The process of GIT is shown below:
+
+First download and install Git and verify it by "git -v"
+Second goto github.com and create an account by signup. create a repository also
+1. In vscode left side--> accounts ->sign in--> choose github
+ and it will open browser and github login screen , 
+ enter username,password--> login-->authorize-->it will redirect to vscode
+
+Actual Process:
+open terminal---> new terminal--> goto specific folder
+1. git init  - it will initiate git into your folder
+2. git add . -- it will add all the files into git 
+3. git commit -m "update" - it will commit your git and added a message update
+
+First time you may end up git config errors.like this.
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Lenovo@SERVER.(none)')  
+
+ to solve it do following commands
+
+git config --global user.email "your email id"
+git config --global user.name "username"
+
+After this try git add . and git commit -m "update" again.
+4. git remote add origin "link"
+5. git push -u origin main
+
+After Push ur code changes to github you see Code option under MAIN Branch. 
+if you want pull others latest code changes to your  
+6.git fectch --all or git pull origin main
+7 using git status cammand you can check all latest code available or not.

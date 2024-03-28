@@ -1,0 +1,15 @@
+body{
+    /*background-color: red !important;
+    background-color: rgb(red, green, blue) !important;*/
+    /*background-color: rgb(120,125,60);
+    color:white;
+    background-color: rgba(red, green, blue, alpha);
+    background-color: #000;
+    background-color: #FFFFFFFF;*/
+    background-image: url('https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background:linear-gradient(to right,green, blue,red,blue,white)
+    color:white;
+
+}
